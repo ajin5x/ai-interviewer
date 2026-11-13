@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite local databases (optional to track or ignore, keep history local)
+*.db-journal
+
+# Saved generated reports directory (can be preserved locally)
+saved_reports/*.pdf
+saved_reports/*.json
+saved_reports/*.md
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+
+# Local databases and generated reports
+*.db
+*.sqlite
+*.sqlite3
+saved_reports/
+
+# Local secrets
+.streamlit/secrets.toml
+.env*
+
+# Generated testing screenshots
+screenshot*.png
+*_screenshot*.png
+desktop_*.png
+mobile_*.png
+full_page_*.png
+final_*.png
+step_cards_*.png
+sidebar_*.png
+
+# Duplicate mirrored project folder
+/AI-Mock-Interview/

@@ -1,0 +1,9 @@
+# Local AI Mock Interview Assistant Dependencies
+# 100% Local Execution - No Gemini API, No OpenAI, No Paid Cloud AI Services
+
+streamlit>=1.30.0
+reportlab>=4.0.0
+
+# Note: Python's standard library provides sqlite3, json, re, math, and uuid.
+# No external LLM or API keys required.
+
